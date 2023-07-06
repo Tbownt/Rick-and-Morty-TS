@@ -1,0 +1,7 @@
+.loading, .error{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: #fff;
+    height: 100vh;
+}

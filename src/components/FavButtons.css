@@ -1,0 +1,22 @@
+.fav-button {
+    color: #eee;
+    width: 220px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px auto;
+    padding: 18px 5px 18px 5px;
+    background-color: #cf3141;
+    border: none;
+    border-radius: 5px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  .fav-button:hover {
+    background-color: #961c28;
+  }
+  .fav-button svg {
+    margin-left: 5px;
+  }
+  

@@ -1,0 +1,114 @@
+.details-page {
+  background: linear-gradient(
+    -168.39deg,
+    #b84b4b -278.56%,
+    #965454 -78.47%,
+    #3227ac 91.61%
+  );
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-page__image {
+  margin-top: 20px;
+  width: 330px;
+  border: 2px solid black;
+  border-radius: 160px;
+  box-shadow: 0 32px 48px 0px rgba(0, 0, 0, 0.6);
+}
+.details-page__banner {
+  display: flex;
+  width: 350px;
+  margin: 30px auto 0 auto;
+  justify-content: center;
+}
+.details-page__planets {
+  margin: 35px auto 0 auto;
+  width: 550px;
+  border-radius: 20px;
+  box-shadow: 0 32px 48px 0px rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+}
+.details-page__text {
+  margin: 25px 10px 0px 10px;
+  color: #fff;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.details-page__text--title {
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+.details-page__text--red {
+  color: #c90505;
+}
+.details-page__text--green {
+  color: #00b100;
+}
+.details-page__text--black {
+  color: #111;
+  font-weight: 900;
+}
+
+.details-page__text--link {
+  margin: 20px 0px 0px 0px;
+  border-bottom: 1px solid #fff;
+}
+
+.details-page__text--link:hover {
+  color: #555;
+}
+
+.table-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 970px;
+  width: fit-content;
+  background-color: #603697;
+  padding: 8px;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 10px 0 45px 0;
+}
+.table-container__element {
+  color: #111;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+  padding: 10px;
+  margin: 2px;
+  font-size: 22px;
+  text-align: center;
+  min-width: 22px;
+}
+.table-container__element:hover {
+  background-color: #333;
+  color: white;
+}
+.table-container__element--wider {
+  min-width: 34px;
+}
+
+@media (max-width: 590px) {
+  .details-page__planets {
+    width: 330px;
+  }
+  .details-page__text--title {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 360px) {
+  .details-page__image{
+    width: 290px;
+  }
+  .details-page__planets {
+    width: 290px;
+  }
+}

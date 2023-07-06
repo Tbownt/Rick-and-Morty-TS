@@ -1,0 +1,85 @@
+.not-found {
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+  }
+   .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .filters{
+      display: flex;
+      justify-content: center;
+      }
+  
+  .select {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    margin: 35px 10px 25px 10px;
+  }
+  .select--input {
+    width: 200px;
+    background-image: none;
+  }
+  
+  .select:focus {
+    border-color: #86b7fe;
+    outline: 0;
+  
+  }
+  
+  @media (max-width: 1091px){
+    .select {
+      width: 200px
+    }  
+    .select--input {
+      width: 180px
+    }
+  }
+  @media (max-width: 1091px){
+    .select {
+      width: 200px
+    }  
+    .select--input {
+      width: 150px
+    }
+  }
+  @media (max-width: 930px){
+    .select {
+      width: 155px
+    }  
+    .select--input {
+      width: 120px
+    }
+  }
+  @media (max-width: 730px){
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+    }  
+    .select{
+      margin: 15px 10px 15px 10px;
+    } 
+    .select--input{
+      margin: 15px 10px 15px 10px;
+    }
+  
+  }
+  
